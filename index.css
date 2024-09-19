@@ -1,0 +1,134 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #EFEFEF;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  padding: 1.5rem;
+}
+
+.navbar {
+  margin: 1rem;
+  margin-left: 2rem;
+}
+
+.navbar img {
+  height: 4rem;
+}
+
+.secao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 6rem 2rem;
+}
+
+.secao h1 {
+  font-size: 2rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.linha {
+  width: 15%;
+  border: 0.2rem solid black;
+  margin: 0 0 2rem 0;
+}
+
+.lista-topicos {
+  width: 90%;
+  font-size: 1.2rem;
+}
+
+.lista-topicos .paragrafo {
+  padding-bottom: 1.5rem;
+}
+
+.paragrafo {
+  text-indent: 1.5rem;
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+}
+
+.vejamais {
+  color: black;
+  font-size: 1.2rem;
+  margin: 3rem;
+}
+
+.conteudo {
+  background-color: white;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  font-size: 1.5rem;
+  padding: 0.2rem 2rem 0rem 2rem;
+  border-bottom: 1px solid grey;
+  width: 85%;
+}
+
+.page-title h1 {
+  margin: 0.5rem;
+}
+
+.page-topicos {
+  width: 90%;
+  margin: 2.5rem;
+}
+
+.topicos {
+  border: 1px solid black;
+  width: 15rem;
+}
+
+.title-topicos {
+  border-bottom: 1px solid black;
+  background-color: #70C3FF;
+}
+
+.title-topicos h2 {
+  padding: 0.5rem;
+  margin: 0;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.lista-topicos li {
+  text-decoration: underline;
+}
+
+.paragrafo-2 {
+  text-indent: 1.5rem;
+  padding: 0;
+  margin: 0.5rem 0;
+  text-align: justify;
+}
+
+.secao-conteudo {
+  width: 90%;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  padding: 0.2rem 2rem 0rem 2rem;
+  border-bottom: 1px solid grey;
+  width: 85%;
+}
+
+.section-title h1 {
+  margin: 0.5rem;
+  font-weight: 300;
+}
+
+.secao-conteudo .subtitulo {
+  font-size: 2.2rem;
+  padding: 0rem 2.5rem;
+}
